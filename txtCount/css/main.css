@@ -1,0 +1,4 @@
+*{margin:0px; padding:0px;}
+input{width:300px; display:block; margin:10px auto; border:#000 solid 1px; height:24px; line-height:24px; outline:none;}
+textarea{width:300px; height:200px; display:block; margin:10px auto; resize:none; border:#000 solid 1px; outline:none; overflow:hidden;}
+.oversize{color:red;}

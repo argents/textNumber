@@ -1,0 +1,44 @@
+* { margin: 0; padding: 0; }
+html,body{margin:0px;font-size:12px;background:#b2e2f9;}
+.box{width:555px;height:auto;margin:30px auto;background:#fafafa;padding:30px;overflow:hidden;}
+.boxf{width:555px;height:88px;float:left;position:relative;z-index:0;}
+#textDisplay{width:555px;height:88px;position:absolute;left:0px;top:0px;word-wrap:break-word;word-break:normal;z-index:1;text-align:left;line-height:20px;font-family:Arial;font-size:12px;}
+#list{width:170px;position:absolute;padding:1px;border:1px solid #cccccc;display:none;z-index:100;background:#fff;font-family:Arial;}
+#list ul{margin:0px;padding:0px;float:left;list-style-type:none;}
+#list li{width:170px;height:23px;float:left;text-indent:10px;line-height:23px;text-align:left;color:#333333;cursor:pointer;}
+#list li.hove{background:#e6e6e6;}
+textarea{width:555px;height:88px;border:1px solid #ccc;border-radius:5px;resize:none;position:absolute;top:0px;left:0px;z-index:2;font-family:Arial;font-size:12px;line-height:20px;overflow:hidden;}
+textarea.hove{border:1px solid #ffb941;}
+.title{width:555px;height:21px;text-align:left;padding-bottom:20px;}
+.title span{float:right;color:#0a8cd2; padding-top:5px;}
+.title span.color{color:#808080;padding:0px;margin-top:-3px;}
+.title span em{font-style:normal;font-family:Constantia,Georgia;font-size:22px;font-weight:700;}
+.btnf{width:555px;height:auto;overflow:hidden;padding-top:10px;}
+.btn{width:82px;height:30px;background:url(images/fb.jpg) no-repeat;cursor:pointer;float:right;}
+.btnh{background:url(images/fb_red.png) no-repeat;}
+.back{background:#ffd4d4;}
+.fbcg{width:110px;height:42px;background:url(images/fbcg.jpg) no-repeat;position:absolute;top:50%;left:50%;margin:-21px 0 0 -55px;z-index:10;display:none;}
+.dis{display:block;}
+.undis{display:none;}
+#desc{border: 1px dashed #ccc;color:#333;background:#fff;line-height:2;padding:10px;width:533px;border-radius:5px; margin-top:20px;text-align:left;font-family:Arial;font-size:14px;}
+.btnf_s{float:left;width:150px;height:20px;}
+.btnf_s .iconface{display:inline-block;background:url(images/icon.png) no-repeat -275px 2px; width:20px;height:20px;line-height:20px;}
+.btnf_s .iconface:hover{background-position:-250px 2px;}
+.btnf_s .icon_sw_img{display:inline-block;background:url(images/icon.png) no-repeat -270px -23px; width:25px;height:20px;line-height:20px;}
+.btnf_s .icon_sw_img:hover{background-position:-245px -23px;}
+.btnf_s .icon_sw_qing{display:inline-block;background:url(images/icon.png) no-repeat -270px -98px; width:20px;height:20px;line-height:20px;}
+.btnf_s .icon_sw_qing:hover{background-position:-245px -98px;}
+.clearfix { zoom: 1; display: block; }
+.clearfix:after { clear: both; content: "."; display: block; height: 0; line-height: 0; visibility: hidden; }
+li { list-style: none; }
+.facebox ul { background: #fff; margin: 0px 0px; padding: 0; }
+.facebox ul li { cursor: pointer; padding: 4px; background: #fff; border-right: solid 1px #e8e8e8; border-bottom: solid 1px #e8e8e8; float: left; overflow: hidden; }
+.facebox ul li img { width: 22px; height: 22px; display: block; background: #fff; }
+.facebox ul li:hover { margin-left: -1px; margin-top: -1px; border-left: solid 1px #0095cd; border-top: solid 1px #0095cd; border-right: solid 1px #0095cd; border-bottom: solid 1px #0095cd; }
+#face { position: absolute; display: none; background: #fff none repeat scroll 0 0; border: 1px solid #CCCCCC; width: 400px; padding: 0px 0px; z-index: 999999; text-align: left; margin: 0px 0px; }
+#facebox { margin: 10px 12px 20px; border-top: 1px solid #e8e8e8; border-left: 1px solid #e8e8e8; width: 372px; }
+#texttb { height: 28px; margin: 0px 0px; padding: 0; background: #F0F0F0; }
+#texttb .f_close { position: absolute; right: 14px; top: 5px; z-index: 99; }
+.f_close { background: url("../images/delete_items.gif") no-repeat scroll transparent; cursor: pointer; display: block; height: 19px; width: 19px; }
+.arrow { background: url("../images/layer_arrow.png") no-repeat scroll 0 0 transparent; display: block; overflow: hidden; position: absolute; }
+.arrow_t { background-position: 0 -1px; height: 11px; width: 16px; left: 25px; top: -11px; }
